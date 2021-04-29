@@ -6,42 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
 </head>
+
+<header>
+    <h1>Calculator</h1>
+</header>
+
 <body>
     <main>
-        <section class="addition">
-            <input id="add1"/>
-            <label>+</label>
-            <input id="add2"/>
-            <button id="add-button">=</button>
-            <span id="add-result"></span>
-        </section>
-        <section class="subtraction">
-            <input id="sub1"/>
-            <label>-</label>
-            <input id="sub2"/>
-            <button id="sub-button">=</button>
-            <span id="sub-result"></span>
-        </section>
-        <section class="multiplication">
-            <input id="mult1"/>
-            <label>×</label>
-            <input id="mult2"/>
-            <button id="mult-button">=</button>
-            <span id="mult-result"></span>
-        </section>
-        <section class="division">
-            <input id="div1"/>
-            <label>÷</label>
-            <input id="div2"/>
-            <button id="div-button">=</button>
-            <span id="div-result"></span>
-        </section>
-
+        <content>
+            <section class="add-sub">
+                <h2>Addition</h2>
+                <section class="addition">
+                    <section class="inputs">
+                        <input id="add1"/>
+                        <label>+</label>
+                        <input id="add2"/>
+                        <button id="add-button">=</button>
+                    </section>
+                    <p id="add-result"></p>
+                </section>
+                <h2>Subtraction</h2>
+                <section class="subtraction">
+                    <section class="inputs"><input id="sub1"/>
+                        <label>-</label>
+                        <input id="sub2"/>
+                        <button id="sub-button">=</button>
+                    </section>
+                    <p id="sub-result"></p>
+                </section>
+            </section>
+            <section class="mult-div">
+                <h2>Multiplication</h2>
+                <section class="multiplication">
+                        <section class="inputs">
+                            <input id="mult1"/>
+                            <label>×</label>
+                            <input id="mult2"/>
+                            <button id="mult-button">=</button>
+                        </section>
+                        <p id="mult-result"></p>
+                </section>
+                <h2>Division</h2>
+                <section class="division">
+                    <section class="inputs">
+                        <input id="div1"/>
+                        <label>÷</label>
+                        <input id="div2"/>
+                        <button id="div-button">=</button>
+                    </section>
+                    <p id="div-result"></p>
+                </section>
+            </section>
+        </content>
 
     </main>
 
 
-    <script src="./app.js"></script>
+    <script type ="module" src="./app.js"></script>
 </body>
 </html>

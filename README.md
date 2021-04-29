@@ -15,3 +15,7 @@
     1) create event listeners for multiplication button
     1) create event listeners for division button
 1) style it with css
+    1) get sensible stuff
+    1) header
+    1) flexbox
+    1) 
