@@ -4,6 +4,7 @@ body, html {
     padding: 0;
     margin: 0;
     background-color: #FEEAFA;
+    overflow: scroll;
 }
 
 * {
@@ -77,7 +78,7 @@ h2 {
     border: #8E9AAF double 10px;
 }
 
-p {
+/*p {
     background-color: #EFD3D7;
     border-radius: 50%;
     height: 100px;
@@ -90,7 +91,7 @@ p {
     margin-top: 50px;
     font-size: 30px;
     border: rgb(248, 242, 242)  2px double;
-}
+}*/
 
 header {
     background-color: #CBC0D3;
@@ -114,12 +115,34 @@ input {
     text-align: center;
 }
 
+input:hover {
+    border-color: #727c8d;
+}
+
 button {
+    /*
     height: 30px;
     width: 30px;
     border: rgb(248, 242, 242)  2px double;
     border-radius: 2px;
-    color: #8E9AAF;
+    color: #8E9AAF;*/
+    background-color: #EFD3D7;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    border: rgb(248, 242, 242)  2px double;
+    color:rgb(248, 242, 242);
+}
+
+button:hover {
+    opacity: 60%;
 }
 
 label {

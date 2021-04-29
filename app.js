@@ -31,7 +31,7 @@ addButton.addEventListener('click', () => {
     const num1 = Number(add1.value);
     const num2 = Number(add2.value);
 
-    addResult.textContent = num1 + num2;
+    addButton.textContent = num1 + num2;
 })
 
 //create event listeners for sub button
@@ -39,7 +39,7 @@ subButton.addEventListener('click', () => {
     const num1 = Number(sub1.value);
     const num2 = Number(sub2.value);
 
-    subResult.textContent = num1 - num2;
+    subButton.textContent = num1 - num2;
 })
 
 //create event listeners for mult button
@@ -47,7 +47,7 @@ multButton.addEventListener('click', () => {
     const num1 = Number(mult1.value);
     const num2 = Number(mult2.value);
 
-    multResult.textContent = num1 * num2;
+    multButton.textContent = num1 * num2;
 })
 
 //create event listeners for div button
@@ -55,6 +55,6 @@ divButton.addEventListener('click', () => {
     const num1 = Number(div1.value);
     const num2 = Number(div2.value);
 
-    divResult.textContent = num1 / num2;
+    divButton.textContent = num1 / num2;
 })
 
